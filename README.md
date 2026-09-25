@@ -8,8 +8,8 @@
 
 Provide a short and concise overview of the project. Mention the problem it solves, the data used, and the key outcomes or findings.
 
-- **Objective:** Clearly state the main goal of the project.
-- **Domain:** (e.g., Healthcare, Finance, E-commerce, etc.)
+- **Objective:** To compare the precipitation between two cities 
+- **Domain:** Weather
 - **Key Techniques:** (e.g., Regression, Classification, Clustering, NLP, Time Series)
 
 ---
@@ -28,8 +28,8 @@ Provide a short and concise overview of the project. Mention the problem it solv
 
 ## Data
 
-- **Source:** Link to the data source(s) 
-- **Description:** Brief overview of the dataset features, size, and format
+- **Source:** https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND
+- **Description:** excel, csv file, 229KB
 - **License:** (if applicable)
 
 ---
@@ -48,13 +48,13 @@ Include a short discussion of the findings and what they imply.
 
 ## Authors
 
-- Your Name - [@yourhandle](https://github.com/yourhandle)
+- Nina Fossen - [ninofo](https://github.com/ninofo)
 
 ---
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
 
 ---
 
