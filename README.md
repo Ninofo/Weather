@@ -28,7 +28,7 @@ Provide a short and concise overview of the project. Mention the problem it solv
 
 ## Data
 
--**Data Preparation:** A data frame (named 'df') was created with data subsets from the Seattle Weather station and Detroit Weather station. This new data frame includes precipitation values, the dates they were measured, and which city they were measured in. New variables were created to fill in missing precipitation values from the Seattle weather station. df was converted to a tidy dataFrame.   
+- **Data Preparation:** A data frame (named 'df') was created with data subsets from the Seattle Weather station and Detroit Weather station. This new data frame includes precipitation values, the dates they were measured, and which city they were measured in. New variables were created to fill in missing precipitation values from the Seattle weather station. df was converted to a tidy dataFrame.  Seen in .py file "precipitation df of Seattle and Detroit-Weather" in the GitHub Repository
 - **Source:** https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND
 - **Description:** excel, csv file, 229KB
 - **License:** (if applicable)
