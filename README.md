@@ -37,14 +37,8 @@ This project aims to determine if it rains more in Seattle, WA or Detroit, MI. T
 
 ## Analysis
 
-Analysis done in python using JupyterLabs and can be seen in "SEA_DTW_weather_Data_Processing_and_Analysis.ipynb" in repository. Read top to bottom to reproduce results. 
-Start with importing pandas, numpy, matplotlib.pyplot and seaborn libraries for data analysis and visualization tools. Import stats from scipy for tools to perform statistical tests. 
-import calendar to put month names in your data visualizations (graphs)
-used describe() to get basic statistical measures for the overall precipitation data, making sure to group by each city
-created columns in data for precipitation averages by month and days that experienced any precipitation
-Used seaborns barplot(), lineplot(), boxplot() to create visualizations(graphs)
-Used stats from scipy to perform a t-test for the precipitation averages by month. Then used proportions_ztest from statsmodels.stats.proportion to performed a z-test for the number of days each city experienced precipitation. 
-The results of the above statistical tests were put in bar graphs using seaborns barplot and had statistically significant differences between the two cities in a given month notated with an asterisk over that month. 
+Analysis done in python using JupyterLabs and can be seen in "SEA_DTW_weather_Data_Processing_and_Analysis.ipynb" in repository. Read top to bottom to reproduce results. The Analysis is done using the "clean_Seattle_Detroit_weather.cvs" dataframe created in the same notebook previously listed. 
+Start with importing pandas, numpy, matplotlib.pyplot and seaborn libraries for data analysis and visualization tools. Import stats from scipy for tools to perform statistical tests. I Imported the calendar to put month names in the data visualizations (graphs). I officially began my analysis using the describe() method to get basic statistical measures for the overall precipitation data, making sure to group by each city. From my initial impression I moved on to creating columns in data for precipitation averages by month and the number of days that experienced any precipitation in each city. The following analysis used seaborns barplot(), lineplot(), and boxplot() methods to create visualizations(graphs). These lead me to use 'stats' from scipy to perform a t-test for the precipitation averages by month. Then I used 'proportions_ztest' from statsmodels.stats.proportion to performed a z-test for the number of days each city experienced precipitation. The results of the above statistical tests were put in bar graphs using seaborns barplot() method and had statistically significant differences between the two cities in a given month notated with an asterisk over that month. 
 
 ---
 
